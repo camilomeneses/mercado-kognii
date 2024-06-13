@@ -275,8 +275,11 @@ export default function CartPage() {
         <Center>
           <ColumnsWrapper>
             <WhiteBoxCart>
-              <h1>Thanks for your order!</h1>
-              <p>We will email you when your order will be sent.</p>
+              <h1>Gracias por tu compra!</h1>
+              <p>
+                Te enviaremos un email cuando tu paquete este listo para
+                enviarse.
+              </p>
             </WhiteBoxCart>
           </ColumnsWrapper>
         </Center>
@@ -381,36 +384,36 @@ export default function CartPage() {
                           </InputDisabled>
 
                           <TipSpan>
-                            If the previous information is incorrect, you can
-                            edit it by clicking on the Edit Order Information
-                            button
+                            Si la información anterior es incorrecta, puedes
+                            editarla haciendo clic en el botón Editar
+                            Información del Pedido
                           </TipSpan>
 
                           <EditButton black={1} block={1} onClick={goToAccount}>
-                            Edit Order Information
+                            Editar Información del Pedido
                           </EditButton>
                           <hr></hr>
                           <ContinueButton
                             primary={1}
                             block={1}
                             onClick={goToPayment}>
-                            Continue to payment
+                            Continuar con el Pago
                           </ContinueButton>
                         </>
                       ) : (
                         <>
                           <TipSpan>
-                            Please make sure to have all the location fields
-                            filled out for the successful delivery of our
-                            products to your destination.
+                            Por favor, asegúrate de completar todos los campos
+                            de ubicación para la entrega exitosa de nuestros
+                            productos a tu destino
                             <br />
                             <br />
-                            Once you have filled out the requested information,
-                            you will be able to proceed with your purchase.
+                            Una vez que hayas completado la información
+                            solicitada, podrás proceder con tu compra
                           </TipSpan>
                           <hr></hr>
                           <Button black={1} block={1} onClick={GoToAccount}>
-                            Go to Account
+                            Ir a la Cuenta
                           </Button>
                         </>
                       )}
@@ -419,7 +422,8 @@ export default function CartPage() {
                   {!session && (
                     <>
                       <p>
-                        To continue with the payment process, please log in.
+                        Para continuar con el proceso de pago, por favor inicia
+                        sesión
                       </p>
                       <Button primary={1} onClick={login} block={true}>
                         Login

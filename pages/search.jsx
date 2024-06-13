@@ -237,7 +237,7 @@ export default function SearchPage({ wishedProducts }) {
             </div>
           )}
           {!isLoading && phrase !== '' && products.length === 0 && (
-            <h2>No products found for query &quot;{phrase}&quot;</h2>
+            <h2>No se han encontrado productos para &quot;{phrase}&quot;</h2>
           )}
           {isLoading && <Spinner fullWidth />}
           {!isLoading && products.length > 0 && (

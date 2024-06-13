@@ -162,7 +162,9 @@ const StyledNav = styled.nav`
   height: 100vh;
   background-color: #222;
   padding: 60px 20px 20px;
-  transition: right 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  transition:
+    right 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out;
   z-index: 11;
 
   ${(props) =>
@@ -183,7 +185,9 @@ const StyledNav = styled.nav`
     width: 100%;
     gap: 20px;
     box-shadow: none;
-    transition: right 0s ease-in-out, box-shadow 0s ease-in-out;
+    transition:
+      right 0s ease-in-out,
+      box-shadow 0s ease-in-out;
     padding: 20px;
   }
 
@@ -423,7 +427,7 @@ export default function Header({ black, name }) {
         isFixedBottom={isFixedBottom}>
         <Center>
           <Wrapper isFixedTop={isFixedTop} isFixedBottom={isFixedBottom}>
-            <Logo href={'/'}>Ecommerce</Logo>
+            <Logo href={'/'}>Mercado Kognii</Logo>
             <StyledNav
               ref={ref}
               mobileActiveNav={mobileActiveNav}
@@ -431,7 +435,7 @@ export default function Header({ black, name }) {
               isFixedBottom={isFixedBottom}
               session={session}>
               <Logo nav={1} href={'/'}>
-                Ecommerce
+                Mercado Kognii
               </Logo>
               <NavLink href={'/'} aria-label="go to home page">
                 Inicio
@@ -543,8 +547,4 @@ export default function Header({ black, name }) {
     </>
   );
 }
-
-
-
-
 

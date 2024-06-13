@@ -41,10 +41,10 @@ export default function HomePage({
   return (
     <>
       <Head>
-        <title>Demo Ecommerce</title>
+        <title>Mercado Kognii</title>
         <meta
           name="description"
-          content="Demo Ecommerce es un modelo de tienda en línea dirigido para pequeños vendedores que quieren promocionar sus productos por internet a bajo costo"
+          content="Mercado Kognii es un modelo de tienda en línea dirigido para pequeños vendedores que quieren promocionar sus productos por internet a bajo costo"
           key="desc"
         />
       </Head>
@@ -179,3 +179,4 @@ export async function getServerSideProps(ctx) {
     console.error('Error:', error);
   }
 }
+
