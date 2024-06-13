@@ -393,10 +393,7 @@ export default function CartPage() {
                             Editar Información del Pedido
                           </EditButton>
                           <hr></hr>
-                          <ContinueButton
-                            primary={1}
-                            block={1}
-                            onClick={goToPayment}>
+                          <ContinueButton primary={1} block={1} onClick={''}>
                             Continuar con el Pago
                           </ContinueButton>
                         </>
