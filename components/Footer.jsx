@@ -11,7 +11,7 @@ import { useSettingsContext } from './SettingsContext';
 const StyledFooter = styled.div`
   /* background-color: ${({ transparent }) =>
     !!transparent ? `transparent` : `#222`}; */
-  background-image: url('/footer_.webp');
+  background-image: url('/_footer_.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

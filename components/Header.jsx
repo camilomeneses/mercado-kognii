@@ -20,7 +20,7 @@ import { WishlistContext } from './WishlistContext';
 
 const StyledHeader = styled.header`
   padding-top: 20px;
-  background-color: #222;
+  background-color: #390099;
   z-index: 100;
 
   @media screen and (min-width: 850px) {
@@ -160,7 +160,7 @@ const StyledNav = styled.nav`
   right: ${(props) => (props.mobileActiveNav ? '0' : `-60%`)};
   width: 60%;
   height: 100vh;
-  background-color: #222;
+  background-color: #390099;
   padding: 60px 20px 20px;
   transition:
     right 0.4s ease-in-out,

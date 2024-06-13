@@ -12,7 +12,7 @@ const marqueeAnimation = keyframes`
 const StyledMarqueeWrapper = styled.div`
   width: 100%;
   overflow: hidden;
-  background-color: #222;
+  background-color: #390099;
   color: #fff;
   font-weight: 500;
   font-size: 1.5rem;
@@ -33,5 +33,4 @@ export default function Marquee({ children, numberPhrases }) {
     </StyledMarqueeWrapper>
   );
 }
-
 

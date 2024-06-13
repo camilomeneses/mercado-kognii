@@ -9,7 +9,11 @@ import Images from './Images';
 import Link from 'next/link';
 
 const Bg = styled.div`
-  background-color: #222;
+  /* background-color: #222; */
+  background-image: url('/feactured_.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   color: #fff;
   padding: 50px 0 20px;
   border: 1px solid #222;
@@ -307,6 +311,4 @@ export default function Feactured({ feacturedProducts, userName = '' }) {
     </Bg>
   );
 }
-
-
 
