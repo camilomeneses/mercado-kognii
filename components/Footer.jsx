@@ -9,8 +9,12 @@ import TwitterAnimation from '@/assets/twitter.json';
 import { useSettingsContext } from './SettingsContext';
 
 const StyledFooter = styled.div`
-  background-color: ${({ transparent }) =>
-    !!transparent ? `transparent` : `#222`};
+  /* background-color: ${({ transparent }) =>
+    !!transparent ? `transparent` : `#222`}; */
+  background-image: url('/footer_.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   padding: 30px 0 60px 0;
 `;
