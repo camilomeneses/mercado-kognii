@@ -99,7 +99,7 @@ const TipSpan = styled.p`
 `;
 
 const Bg = styled.div`
-  background-image: url('/bg.svg');
+  background-image: url('/bg_kognii.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

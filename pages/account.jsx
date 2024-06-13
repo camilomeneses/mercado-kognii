@@ -102,7 +102,7 @@ const WishedProductGrid = styled.div`
 `;
 
 const Bg = styled.div`
-  background-image: url('/bg.svg');
+  background-image: url('/bg_kognii.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -386,24 +386,24 @@ export default function AccountPage({
 
                     <form onSubmit={saveAddress}>
                       {/* <CityHolder> */}
-                        <Input
-                          type="text"
-                          label={'Ciudad'}
-                          value={city}
-                          name={city}
-                          placeholder={'Su Ciudad'}
-                          require={true}
-                          onChange={(ev) => setCity(ev.target.value)}
-                        />
-                        <Input
-                          type="text"
-                          label={'Código Postal'}
-                          value={postalCode}
-                          name={postalCode}
-                          placeholder={'Su Código Postal'}
-                          require={true}
-                          onChange={(ev) => setPostalCode(ev.target.value)}
-                        />
+                      <Input
+                        type="text"
+                        label={'Ciudad'}
+                        value={city}
+                        name={city}
+                        placeholder={'Su Ciudad'}
+                        require={true}
+                        onChange={(ev) => setCity(ev.target.value)}
+                      />
+                      <Input
+                        type="text"
+                        label={'Código Postal'}
+                        value={postalCode}
+                        name={postalCode}
+                        placeholder={'Su Código Postal'}
+                        require={true}
+                        onChange={(ev) => setPostalCode(ev.target.value)}
+                      />
                       {/* </CityHolder> */}
                       <Input
                         type="text"
@@ -531,11 +531,4 @@ export async function getServerSideProps(ctx) {
     console.error('Error:', error);
   }
 }
-
-
-
-
-
-
-
 
